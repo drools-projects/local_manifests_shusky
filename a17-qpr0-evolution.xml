@@ -6,8 +6,6 @@
             fetch="https://github.com/LineageOS" />
     <remote name="evolution-devices"
             fetch="https://github.com/Evolution-X-Devices" />
-    <remote name="muppets"
-            fetch="https://github.com/TheMuppets" />
     <!-- Device tree dependencies -->
     <project path="device/google/shusky" name="android_device_google_shusky" remote="drools-projects" revision="a17-qpr0-evolution" />
     <project path="device/google/zuma" name="android_device_google_zuma" remote="drools-projects" revision="a17-qpr0-evolution" />
@@ -16,6 +14,6 @@
     <project path="device/google/gs-common" name="device_google_gs-common" remote="evolution-devices" revision="cnb" />
     <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="evolution-devices" revision="cnb" />
     <!-- Vendor -->
-    <project path="vendor/google/shiba" name="proprietary_vendor_google_shiba" remote="muppets" revision="lineage-24.0" />
-    <project path="vendor/google/husky" name="proprietary_vendor_google_husky" remote="muppets" revision="lineage-24.0" />    
+    <project path="vendor/google/shiba" name="proprietary_vendor_google_shiba" remote="drools-projects" revision="a17-qpr0-evolution" />
+    <project path="vendor/google/husky" name="proprietary_vendor_google_husky" remote="drools-projects" revision="a17-qpr0-evolution" />    
 </manifest>
